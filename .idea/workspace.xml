@@ -4,26 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b27e44ef-0fed-4222-973c-8b1546be0d76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SiteApiWithMYSQL.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SiteApiWithMYSQL/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SiteApiWithMYSQL/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SiteApiWithMYSQL/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SiteApiWithMYSQL/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SiteApiWithMYSQL/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0002_remove_user_is_active.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0003_alter_user_id.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
+    <list default="true" id="b27e44ef-0fed-4222-973c-8b1546be0d76" name="Changes" comment="added more files">
+      <change afterPath="$PROJECT_DIR$/productsApi/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productsApi/migrations/0002_productmodel_description.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productsApi/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/0004_rename_user_usermodel_alter_usermodel_managers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SiteApiWithMYSQL/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SiteApiWithMYSQL/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SiteApiWithMYSQL/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SiteApiWithMYSQL/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,41 +24,53 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Aragorn3022&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Aragorn3022/bassicApi&quot;,
+    &quot;accountId&quot;: &quot;05cfb13f-8f73-4ec8-8596-4554b8d2c00d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2nkx3APnQKppZqr1V5gwTUhtxU8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.SiteApiWithMYSQL.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.SiteApiWithMYSQL.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="SiteApiWithMYSQL" type="Python.DjangoServer" factoryName="Django server">
       <module name="SiteApiWithMYSQL" />
@@ -114,11 +114,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729530674907</updated>
-      <workItem from="1729530725044" duration="8538000" />
+      <workItem from="1729530725044" duration="11176000" />
+      <workItem from="1729765548303" duration="5501000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1729542420000</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729542420000</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added more files">
+      <option name="closed" value="true" />
+      <created>1729542469529</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729542469529</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="added more files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more files" />
   </component>
 </project>
