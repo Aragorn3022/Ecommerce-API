@@ -1,12 +1,12 @@
 from django.shortcuts import render
 from django.contrib.auth.models import User
-from rest_framework.status import HTTP_404_NOT_FOUND, HTTP_204_NO_CONTENT, HTTP_400_BAD_REQUEST
+from rest_framework.status import HTTP_404_NOT_FOUND, HTTP_204_NO_CONTENT, HTTP_400_BAD_REQUEST, HTTP_201_CREATED
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
 from rest_framework import status
 from .serializer import ProductSerializer
-
+from .models import ProductModel
 # Create your views here.
 class AddProductView(APIView):
     isAdmin = IsAdminUser and IsAuthenticated
@@ -15,23 +15,18 @@ class AddProductView(APIView):
             serializer = ProductSerializer(data=request.data, context={'request': request})
             if serializer.is_valid():
 
-                product = serializer.save()
+                serializer.save()
                 return Response(serializer.data, status=status.HTTP_201_CREATED)
             return Response(serializer.errors,status=status.HTTP_400_BAD_REQUEST)
 
 
 
 class ListProductsView(APIView):
-    permission_classes = [IsAuthenticated, IsAdminUser]
-    isAdmin = IsAdminUser and IsAuthenticated
-    if isAdmin:
-        def get(self, request):
-            users = User.objects.all()
-            serializer = ProductSerializer(users, many=True)
-            return Response(serializer.data)
+    def get(self, request):
+        Product = ProductModel.objects.all()
+        serializer = ProductSerializer(Product, many=True)
+        return Response(serializer.data)
 
-    else:
-        AddProductView.as_view()
 
 
 class DeleteProductsView(APIView):
@@ -39,12 +34,12 @@ class DeleteProductsView(APIView):
 
     def delete(self, request, pk):
         try:
-            user = User.objects.get(pk=pk)
-        except User.DoesNotExist:
+            Product = ProductModel.objects.get(pk=pk)
+        except ProductModel.DoesNotExist:
             return Response(status=HTTP_404_NOT_FOUND)
 
-        user.delete()
-        return Response(status=HTTP_204_NO_CONTENT)  # Successful deletion, no content
+        Product.delete()
+        return Response({"Deleted Successfully"},status=HTTP_201_CREATED,)  # Successful deletion, no content
 
 
 class UpdateProductView(APIView):
@@ -52,8 +47,8 @@ class UpdateProductView(APIView):
 
     def put(self, request, pk):
         try:
-            user = User.objects.get(pk=pk)
-        except User.DoesNotExist:
+            user = ProductModel.objects.get(pk=pk)
+        except ProductModel.DoesNotExist:
             return Response(status=HTTP_404_NOT_FOUND)
 
         serializer = ProductSerializer(user, data=request.data)

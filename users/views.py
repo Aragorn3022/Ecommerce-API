@@ -3,13 +3,17 @@ from rest_framework.status import HTTP_404_NOT_FOUND, HTTP_204_NO_CONTENT, HTTP_
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
-from rest_framework import status
+from rest_framework import status, permissions
 from .serializers import UserSerializer
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
+class  MyTokenObtainPairView(TokenObtainPairView):
+    permission_classes = (permissions.AllowAny,)
+
+class MyTokenRefreshView(TokenRefreshView):
+    permission_classes = (permissions.AllowAny,)
 
 class AddUserView(APIView):
-    permission_classes = [IsAuthenticated, IsAdminUser]  # Only Staff can add users
-
     def post(self, request):
         serializer = UserSerializer(data=request.data)
         if serializer.is_valid():

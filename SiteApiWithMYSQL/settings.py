@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'users.apps.UsersConfig',
     'rest_framework',
-    'productsApi.apps.ProductsapiConfig'
+    'productsApi.apps.ProductsapiConfig',
+    'rest_framework_simplejwt',
 ]
 
 MIDDLEWARE = [
@@ -129,3 +130,12 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+SESSION_COOKIE_AGE = 604800  # 1 week in seconds
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.SessionAuthentication',
+
+    ]
+}

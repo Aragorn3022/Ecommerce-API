@@ -1,9 +1,11 @@
 from django.urls import path
-from .views import AddUserView, ListUsersView, DeleteUserView, UpdateUserView
+from .views import AddUserView, ListUsersView, DeleteUserView, UpdateUserView,MyTokenObtainPairView,MyTokenRefreshView
 
 urlpatterns = [
     path('add-user/', AddUserView.as_view()),
     path('users/', ListUsersView.as_view()),
     path('users/<int:pk>/', UpdateUserView.as_view()),  # Add pk for update
     path('users/<int:pk>/delete/', DeleteUserView.as_view()),  # Add pk for delete
+    path('api/token/', MyTokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('api/token/refresh/', MyTokenRefreshView.as_view(), name='token_refresh'),
 ]

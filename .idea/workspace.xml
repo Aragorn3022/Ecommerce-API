@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b27e44ef-0fed-4222-973c-8b1546be0d76" name="Changes" comment="added more files">
-      <change afterPath="$PROJECT_DIR$/productsApi/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/productsApi/migrations/0002_productmodel_description.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/productsApi/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0004_rename_user_usermodel_alter_usermodel_managers.py" afterDir="false" />
+    <list default="true" id="b27e44ef-0fed-4222-973c-8b1546be0d76" name="Changes" comment="made a fucntional product api">
+      <change afterPath="$PROJECT_DIR$/productsApi/migrations/0003_productmodel_itempicturelocation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SiteApiWithMYSQL/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SiteApiWithMYSQL/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SiteApiWithMYSQL/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SiteApiWithMYSQL/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productsApi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/productsApi/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productsApi/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/productsApi/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productsApi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/productsApi/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +116,8 @@
       <option name="presentableId" value="Default" />
       <updated>1729530674907</updated>
       <workItem from="1729530725044" duration="11176000" />
-      <workItem from="1729765548303" duration="5501000" />
+      <workItem from="1729765548303" duration="9498000" />
+      <workItem from="1729957307937" duration="4662000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -133,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729542469529</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="made a fucntional product api">
+      <option name="closed" value="true" />
+      <created>1729778300863</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729778300863</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +152,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="added more files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more files" />
+    <MESSAGE value="made a fucntional product api" />
+    <option name="LAST_COMMIT_MESSAGE" value="made a fucntional product api" />
   </component>
 </project>
