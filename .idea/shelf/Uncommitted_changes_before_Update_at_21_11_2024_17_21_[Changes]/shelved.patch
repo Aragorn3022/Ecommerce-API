@@ -1,0 +1,139 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b27e44ef-0fed-4222-973c-8b1546be0d76\" name=\"Changes\" comment=\"Fixed some issue of the Product api and made it store user logged in status\">\r\n      <change afterPath=\"$PROJECT_DIR$/cart/migrations/0001_initial.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/cart/migrations/__init__.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/cart/serializer.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/cart/urls.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/orders/migrations/__init__.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/orders/serializers.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/orders/urls.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/productsApi/migrations/0004_alter_productmodel_description_and_more.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/productsApi/migrations/0005_productmodel_category.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/SiteApiWithMYSQL/settings.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/SiteApiWithMYSQL/settings.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/SiteApiWithMYSQL/urls.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/SiteApiWithMYSQL/urls.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/productsApi/__init__.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/productsApi/__init__.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/productsApi/models.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/productsApi/models.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/productsApi/views.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/productsApi/views.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/users/urls.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/users/urls.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/users/views.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/users/views.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"DjangoConsoleOptions\" custom-start-script=\"import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)\">\r\n    <option name=\"myCustomStartScript\" value=\"import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Aragorn3022&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Aragorn3022/bassicApi&quot;,\r\n    &quot;accountId&quot;: &quot;05cfb13f-8f73-4ec8-8596-4554b8d2c00d&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 7\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2nkx3APnQKppZqr1V5gwTUhtxU8\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;Django Server.SiteApiWithMYSQL.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,\r\n    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,\r\n    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;G:/PythonAPIS&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"SiteApiWithMYSQL\" type=\"Python.DjangoServer\" factoryName=\"Django server\">\r\n      <module name=\"SiteApiWithMYSQL\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n        <env name=\"DJANGO_SETTINGS_MODULE\" value=\"SiteApiWithMYSQL.settings\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"launchJavascriptDebuger\" value=\"false\" />\r\n      <option name=\"port\" value=\"8000\" />\r\n      <option name=\"host\" value=\"localhost\" />\r\n      <option name=\"additionalOptions\" value=\"\" />\r\n      <option name=\"browserUrl\" value=\"\" />\r\n      <option name=\"runTestServer\" value=\"false\" />\r\n      <option name=\"runNoReload\" value=\"false\" />\r\n      <option name=\"useCustomRunCommand\" value=\"false\" />\r\n      <option name=\"customRunCommand\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19\" />\r\n        <option value=\"bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b27e44ef-0fed-4222-973c-8b1546be0d76\" name=\"Changes\" comment=\"\" />\r\n      <created>1729530674907</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1729530674907</updated>\r\n      <workItem from=\"1729530725044\" duration=\"11176000\" />\r\n      <workItem from=\"1729765548303\" duration=\"9498000\" />\r\n      <workItem from=\"1729957307937\" duration=\"5890000\" />\r\n      <workItem from=\"1730026393794\" duration=\"32000\" />\r\n      <workItem from=\"1730033460928\" duration=\"3201000\" />\r\n      <workItem from=\"1730216225695\" duration=\"4373000\" />\r\n      <workItem from=\"1732182055461\" duration=\"2502000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"first commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729542420000</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729542420000</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"added more files\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729542469529</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729542469529</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"made a fucntional product api\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729778300863</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729778300863</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Fixed some issue of the Product api and made it store user logged in status\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729965967215</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729965967216</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first commit\" />\r\n    <MESSAGE value=\"added more files\" />\r\n    <MESSAGE value=\"made a fucntional product api\" />\r\n    <MESSAGE value=\"Fixed some issue of the Product api and made it store user logged in status\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Fixed some issue of the Product api and made it store user logged in status\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f8f68513637f27248fa3db7815b3633bb94fe95a)
++++ b/.idea/workspace.xml	(date 1732191646787)
+@@ -4,25 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b27e44ef-0fed-4222-973c-8b1546be0d76" name="Changes" comment="Fixed some issue of the Product api and made it store user logged in status">
+-      <change afterPath="$PROJECT_DIR$/cart/migrations/0001_initial.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/cart/migrations/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/cart/serializer.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/cart/urls.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/orders/migrations/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/orders/serializers.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/orders/urls.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/productsApi/migrations/0004_alter_productmodel_description_and_more.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/productsApi/migrations/0005_productmodel_category.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/SiteApiWithMYSQL/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SiteApiWithMYSQL/settings.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/SiteApiWithMYSQL/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SiteApiWithMYSQL/urls.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/productsApi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/productsApi/__init__.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/productsApi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/productsApi/models.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/productsApi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/productsApi/views.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+-    </list>
++    <list default="true" id="b27e44ef-0fed-4222-973c-8b1546be0d76" name="Changes" comment="Added cart and order functionality" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -40,6 +22,13 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="PUSH_AUTO_UPDATE" value="true" />
++    <option name="PUSH_TAGS">
++      <GitPushTagMode>
++        <option name="argument" value="--tags" />
++        <option name="title" value="All" />
++      </GitPushTagMode>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory">{
+@@ -63,25 +52,25 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+-    &quot;Django Server.SiteApiWithMYSQL.executor&quot;: &quot;Run&quot;,
+-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+-    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;G:/PythonAPIS&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "DefaultHtmlFileTemplate": "HTML File",
++    "Django Server.SiteApiWithMYSQL.executor": "Run",
++    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
++    "dart.analysis.tool.window.visible": "false",
++    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
++    "git-widget-placeholder": "Merging master",
++    "last_opened_file_path": "G:/PythonAPIS",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RunManager">
+     <configuration name="SiteApiWithMYSQL" type="Python.DjangoServer" factoryName="Django server">
+       <module name="SiteApiWithMYSQL" />
+@@ -131,7 +120,7 @@
+       <workItem from="1730026393794" duration="32000" />
+       <workItem from="1730033460928" duration="3201000" />
+       <workItem from="1730216225695" duration="4373000" />
+-      <workItem from="1732182055461" duration="2502000" />
++      <workItem from="1732182055461" duration="2811000" />
+     </task>
+     <task id="LOCAL-00001" summary="first commit">
+       <option name="closed" value="true" />
+@@ -165,7 +154,23 @@
+       <option name="project" value="LOCAL" />
+       <updated>1729965967216</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="Added cart and order functionality">
++      <option name="closed" value="true" />
++      <created>1732191528975</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1732191528975</updated>
++    </task>
++    <task id="LOCAL-00006" summary="Added cart and order functionality">
++      <option name="closed" value="true" />
++      <created>1732191577012</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1732191577012</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -176,6 +181,7 @@
+     <MESSAGE value="added more files" />
+     <MESSAGE value="made a fucntional product api" />
+     <MESSAGE value="Fixed some issue of the Product api and made it store user logged in status" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Fixed some issue of the Product api and made it store user logged in status" />
++    <MESSAGE value="Added cart and order functionality" />
++    <option name="LAST_COMMIT_MESSAGE" value="Added cart and order functionality" />
+   </component>
+ </project>
+\ No newline at end of file
