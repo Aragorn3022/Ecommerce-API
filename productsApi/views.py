@@ -4,10 +4,18 @@ from rest_framework.status import HTTP_404_NOT_FOUND, HTTP_204_NO_CONTENT, HTTP_
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
-from rest_framework import status
+from rest_framework import status, viewsets
 from .serializer import ProductSerializer
 from .models import ProductModel
 # Create your views here.
+
+
+class ProductViewSet(viewsets.ModelViewSet):
+    queryset = ProductModel.objects.all()
+    serializer_class = ProductSerializer
+
+
+
 class AddProductView(APIView):
     isAdmin = IsAdminUser and IsAuthenticated
     if isAdmin:
