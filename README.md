@@ -1,6 +1,6 @@
 This is the backend RESTful API for an E-commerce platform, built using [Django REST Framework ]. It handles core functionality such as user authentication, product listings, cart management, order processing, and payments.
 
-> 💡 **Frontend Repository:** [E-commerce Frontend]([https://github.com/yourusername/ecommerce-frontend](https://github.com/Aragorn3022/Ecommerce-Frontend))  
+## 💡 **Frontend Repository:** [E-commerce Frontend](https://github.com/Aragorn3022/Ecommerce-Frontend)
 
 ---
 
